@@ -1,0 +1,28 @@
+# Camera settings
+camera_id: 0
+frame_width: 640
+frame_height: 480
+fps: 30
+
+# Detection settings
+model_path: "best.pt"
+confidence_threshold: 0.3
+focal_length: 840
+object_real_width: 6.3
+
+# Threat assessment settings
+high_threat_angle: 30.0
+high_threat_distance: 200.0
+medium_threat_distance: 100.0
+
+# Audio settings
+speech_rate: 120
+volume: 1.0
+
+# API credentials
+weather_api_key: "ac92624c486840e5a0e91217240211"
+news_api_key: "e29d3d2f188f452699a4e77ab459c943"
+twilio_account_sid: "ACbf3a84933c8187f5933baec382de3945"
+twilio_auth_token: "79bd543b69a4166a2d64634e21e58d57"
+emergency_number: "+919347632259"
+twilio_number: "14155238886"
